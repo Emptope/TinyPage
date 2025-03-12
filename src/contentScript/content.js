@@ -81,15 +81,15 @@ chrome.runtime.onMessage.addListener((message) => {
   }
 });
 
-// chrome.runtime.onMessage.addListener((message) => {
-//   if (message.type === "APPLY_HIDDEN_ELEMENTS") {
-//     message.selectors.forEach((selector) => {
-//       const element = document.querySelector(selector);
-//       if (element) element.style.display = "none";
-//     });
-//   }
-// });
+chrome.runtime.onMessage.addListener((message) => {
+  if (message.type === "APPLY_HIDDEN_ELEMENTS") {
+    message.selectors.forEach((selector) => {
+      const element = document.querySelector(selector);
+      if (element) element.style.display = "none";
+    });
+  }
+});
 
-// chrome.runtime.sendMessage({ type: "REQUEST_HIDDEN_ELEMENTS" });
+chrome.runtime.sendMessage({ type: "REQUEST_HIDDEN_ELEMENTS" });
 
-chrome.runtime.sendMessage({ type: 'APPLY_HIDDEN_ELEMENTS' });
+// chrome.runtime.sendMessage({ type: 'APPLY_HIDDEN_ELEMENTS' });
