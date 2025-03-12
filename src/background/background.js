@@ -27,27 +27,3 @@ chrome.runtime.onMessage.addListener((message, sender) => {
     });
   }
 });
-
-// chrome.runtime.onMessage.addListener((message) => {
-//   if (message.type === 'SAVE_ELEMENT') {
-//     chrome.storage.local.get([message.url], (result) => {
-//       const storedSelectors = result[message.url] || [];
-//       storedSelectors.push(message.selector);
-//       chrome.storage.local.set({
-//         [message.url]: storedSelectors
-//       });
-//     });
-//   }
-// });
-
-// chrome.runtime.onMessage.addListener((message) => {
-//   if (message.type === 'APPLY_HIDDEN_ELEMENTS') {
-//     chrome.storage.local.get([window.location.href], (result) => {
-//       const selectors = result[window.location.href] || [];
-//       selectors.forEach(selector => {
-//         const element = document.querySelector(selector);
-//         if (element) element.style.display = 'none';
-//       });
-//     });
-//   }
-// });

@@ -91,5 +91,3 @@ chrome.runtime.onMessage.addListener((message) => {
 });
 
 chrome.runtime.sendMessage({ type: "REQUEST_HIDDEN_ELEMENTS" });
-
-// chrome.runtime.sendMessage({ type: 'APPLY_HIDDEN_ELEMENTS' });
