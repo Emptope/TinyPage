@@ -1,6 +1,6 @@
-# TinyPage
+# <center>TinyPage</center>
 
-A Chrome extension to declutter web pages effortlessly.
+<center>A Chrome extension to declutter web pages effortlessly.</center>
 
 > Note: Modifications cannot be made to protected web pages.
 
