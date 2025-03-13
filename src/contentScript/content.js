@@ -61,15 +61,23 @@ const startElementSelection = () => {
     }
   };
 
+  const keyDownHandler = (e) => {
+    if (e.key === "Escape" && isSelecting) {
+      stopElementSelection();
+    }
+  };
+
   const stopElementSelection = () => {
     isSelecting = false;
     highlightElement(null);
     document.removeEventListener("mousemove", mouseMoveHandler);
     document.removeEventListener("keypress", keyPressHandler);
+    document.removeEventListener("keydown", keyDownHandler);
   };
 
   document.addEventListener("mousemove", mouseMoveHandler);
   document.addEventListener("keypress", keyPressHandler);
+  document.addEventListener("keydown", keyDownHandler);
 };
 
 chrome.runtime.onMessage.addListener((message) => {

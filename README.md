@@ -7,6 +7,7 @@ A Chrome extension to declutter web pages effortlessly.
 ## TODO
 - [ ] Allow users to remove saved CSS selectors
 - [ ] Press Esc to exit selection mode
+- [ ] Bug fix (src/popup/index.html)
 
 ## Quick Start 
 
