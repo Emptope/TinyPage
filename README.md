@@ -53,7 +53,7 @@ npm run build
 
 ### Use TinyPage
 
-    1. Click the **Extensions** icon and pin **TinyPage**.
-    2. Click the TinyPage icon and select **Start Selecting Elements**.
-    3. Press **Enter** to hide selected elements.
-    4. Enjoy a cleaner web experience! 🚀
+   1. Click the **Extensions** icon and pin **TinyPage**.
+   2. Click the TinyPage icon and select **Start Selecting Elements**.
+   3. Press **Enter** to hide selected elements.
+   4. Enjoy a cleaner web experience! 🚀
