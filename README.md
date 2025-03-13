@@ -10,7 +10,7 @@ A Chrome extension to declutter web pages effortlessly.
 
 > TinyPage is not yet listed on the Chrome Web Store.
 
-1. Install Node.js
+### Install Node.js
 
 Download and install <a href="https://nodejs.org/en/">Node.js</a>. Then, verify the installation:
 
@@ -28,7 +28,7 @@ npm -v
 
 You should see something like “10.9.0”.
 
-2. Clone & Build
+### Clone & Build
 
 Clone the repository and navigate to the project folder:
 
@@ -44,14 +44,14 @@ npm install
 npm run build
 ```
 
-3. Load the Extension
+### Load the Extension
 
    1. Copy `manifest.json` to the `dist` folder.
    2. Open Chrome and go to `chrome://extensions`.
    3. Enable `Developer mode` (toggle in the top right).
    4. Click `Load unpacked` and select the `dist` folder.
 
-4. Use TinyPage
+### Use TinyPage
 
     1. Click the **Extensions** icon and pin **TinyPage**.
     2. Click the TinyPage icon and select **Start Selecting Elements**.
