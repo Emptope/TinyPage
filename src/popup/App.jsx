@@ -16,7 +16,7 @@ export const Highlighter = () => {
   };
 
   return (
-    <div style={{ width: "500px", padding: "12px" }}>
+    <div style={{ width: "300px", padding: "12px" }}>
       <button 
         onClick={handleToggleSelect}
         style={{
@@ -28,7 +28,7 @@ export const Highlighter = () => {
           cursor: "pointer"
         }}
       >
-        {isSelecting ? 'Stop Selecting (Press Enter to select or ESC to quit)' : 'Start Selecting Elements'}
+        {isSelecting ? 'Press Enter to select or ESC to quit' : 'Start Selecting'}
       </button>
     </div>
   );
