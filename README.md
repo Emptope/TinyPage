@@ -2,6 +2,8 @@
 
 A Chrome extension to declutter web pages effortlessly.
 
+> Note: Modifications cannot be made to protected web pages.
+
 ## TODO
 - [ ] Allow users to remove saved CSS selectors
 - [ ] Press Esc to exit selection mode
