@@ -11,9 +11,11 @@
   },
   "action": {
     "default_popup": "src/popup/index.html",
+    "default_title": "TinyPage",
     "default_icon": {
       "128": "icons/icon128.png"
-    }
+    },
+    "browser_style": false
   },
   
   "background": {

@@ -16,7 +16,7 @@ export const Highlighter = () => {
   };
 
   return (
-    <div style={{ width: "400px", padding: "12px" }}>
+    <div style={{ width: "500px", padding: "12px" }}>
       <button 
         onClick={handleToggleSelect}
         style={{
