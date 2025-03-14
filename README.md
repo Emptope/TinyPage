@@ -2,14 +2,16 @@
 
 # TinyPage
 
-#### A Chrome extension to declutter web pages effortlessly.
+#### A Chrome extension to declutter and beautify web pages effortlessly.
 
 </div>
 
 > Note: Modifications cannot be made to protected web pages.
 
 ## TODO
-- [ ] Allow users to remove saved CSS selectors
+- [ ] Allow users to remove saved CSS selectors (important!)
+- [ ] Add a font conversion tool
+- [ ] Add a webpage background color converter
 - [x] Press Esc to exit selection mode
 - [ ] Bug fix (src/popup/index.html)
 
